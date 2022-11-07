@@ -5,19 +5,36 @@
 }
 
 body{
-    width: calc(100% / 3);
-    padding: 10%;
+    padding: 3% 10%;
+    background-color: rgb(245, 245, 241);
+    width: 100vw;
+}
+
+.contenitore{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 5%;
 }
 
 .card{
     width: 320px;
     height: 450px;
-    border: 1px solid black;
     border-radius: 0px;
+    border: 0px;
+    margin-bottom: 5%;
 }
 
 .foto{
     width: 100%;
     height: 75%;
     background-color: lightblue;
+}
+
+.dimFoto{
+    width: 100%;
+    height: 100%;
 }

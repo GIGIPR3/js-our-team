@@ -34,7 +34,7 @@ const team = [
   let percorso = './img/';
 
 
-  for (let i = 0; i < team.lenght; i++) {
+  for (let i = 0; i < 6; i++) {
 
     let elementoCorrente = team[i];
     console.log(elementoCorrente.name);
@@ -42,18 +42,21 @@ const team = [
     document.getElementById('carta').innerHTML +=
 
     `
-    <div class="foto">
-            <img src="${percorso + elementoCorrente.image}" alt="">
-        </div>
-        <div class="mt-3">
-            <div class="fs-4 fw-semibold text-center">
-                ${elementoCorrente.name}
+    <div class="card">
+            <div class="foto">
+                <img src="${percorso + elementoCorrente.image}" alt="" class="dimFoto">
             </div>
-            <div class="text-center">
-                ${elementoCorrente.role}
+            <div class="mt-3">
+                <div class="fs-4 fw-semibold text-center">
+                    ${elementoCorrente.name}
+                </div>
+                <div class="text-center">
+                    ${elementoCorrente.role}
+                </div>
             </div>
-        </div>
+    </div>
+
     `
 
 
-  }
+  }   
