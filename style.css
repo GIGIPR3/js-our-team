@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: calc(100% / 3);
+    padding: 10%;
+}
+
+.card{
+    width: 320px;
+    height: 450px;
+    border: 1px solid black;
+}
+
+.foto{
+    width: 100%;
+    height: 70%;
+    background-color: lightblue;
+}
